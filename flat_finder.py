@@ -1,3 +1,9 @@
+# sciagnij plik flat_finder.py i zainstaluj python 3.11 na kompie
+# otworz cmd w folderze, gdzie jest plik flat_finder.py
+# wpisz `pip install beautifulsoup4 tqdm pandas` i dej enter + poczekaj az sie skoncza instalowac paki
+# odpal skrypt wpisujac w cmd: `python -m flat_finder`; wynik bedzie w pliku o nazwie home.csv - czyli tam gdzie plik .py
+# opcjonalne - w linijce 87 mozesz ustawiac ile stron na raz chcesz analizować (np. ustaw h.max_pages = 10) - zapisz i odpal ponownie
+
 import os
 import re
 
